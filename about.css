@@ -1,0 +1,137 @@
+
+.content{
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+
+}
+.second{
+    color: #333333ce;
+}
+.third{
+    color: #333333a2;
+}
+
+h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h4{
+ text-align: center;
+ font-size: 38px;
+ color: #333333b9;
+ font-family: Philosopher,san-serif;
+ font-weight: bold;
+}
+
+
+.main{
+    background-image: url(pics/office-1730939_1920.jpg);
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+.icon{
+    float: right;
+    margin: 10px 15px;
+    font-size: 22px;
+    color: #333333b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner{
+    margin: 13% auto;
+    width: 50%;
+   
+  
+
+}
+.first-in{
+    background-color: gainsboro;
+    border-radius: 15px;
+    height: fit-content;
+    font-family: philosopher, sans-serif;
+    padding: 10px;
+}
+
+
+
+
+.end{
+    margin-top: 20px;
+   text-align: center;
+}
+button{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.233);
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+@media screen and (max-width:800px){
+    .inner{
+      margin: 30% auto;
+    }
+}
+@media screen and (max-width:600px){
+    .inner{
+      margin: 40% auto;
+    }
+}
+@media screen and (max-width:315px){
+    button{
+        font-size: 15px;
+    }
+}

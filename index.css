@@ -1,0 +1,111 @@
+
+.content{
+    margin-top: 0px;
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+
+}
+.second{
+    color: #333333ce;
+}
+.third{
+    color: #333333a2;
+}
+.note{
+    margin: 180px 0;
+}
+h4{
+ text-align: center;
+ font-size: 38px;
+ color: #333333b9;
+ font-family: Philosopher,san-serif;
+ font-weight: bold;
+}
+
+
+.main{
+    background-image: url(pics/office-1730939_1920.jpg);
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+
+
+
+
+
+
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    background-color:  #33333375;
+}
+button{
+    margin: 20px 0px;
+    border-radius: 15px;
+    outline: none;
+    color: #333333b9;
+    font-size: 18px;
+    background-color: rgba(220, 220, 220, 0.829);
+}
+.button1{
+    justify-self: center;
+  
+}
+.button2{
+    justify-self: center;
+}
+.button3{
+    justify-self: center;
+    color: black;
+    font-size: 18px;
+}
+
+.boxes button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: ;
+}
+.icon{
+    float: right;
+    margin: 10px 15px;
+    font-size: 22px;
+    color: #333333b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:720px){
+    .boxes{
+        grid-template-columns: 1fr;
+        
+    }
+    button{
+        margin: 20px 0px;
+    }
+}
